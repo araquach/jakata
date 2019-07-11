@@ -12,6 +12,7 @@ func (app *application) home(w http.ResponseWriter, r *http.Request) {
 	}
 
 	files := []string{
+		"./ui/html/layout.gohtml",
 		"./ui/html/home.gohtml",
 	}
 
